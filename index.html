@@ -29,7 +29,9 @@
     <!--Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+
+<!-- Classes on body set to work with mt-auto on the footer to ensure it always stays at the bottom of the page.-->
+<body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
     <div>Navigation </div>
 
@@ -43,24 +45,34 @@
 <main>
    <!-- Services with cards-->
 <section class="container">
-    <div class="row>
+    <div class="row">
         <div class="col-12">Service section heading</div>
-        <div class="col-12 col-md-6 col-xl-3*">Service 2 card</div>
-        <div class="col-12 col-md-6 col-xl-3*">Service 2 card</div>
-        <div class="col-12 col-md-6 col-xl-3*">Service 2 card</div>
-        <div class="col-12 col-md-6 col-xl-3*">Service 2 card</div>
+        <div class="col-12 col-md-6 col-xl-3*">Service card</div>
+        <div class="col-12 col-md-6 col-xl-3*">Service card</div>
+        <div class="col-12 col-md-6 col-xl-3*">Service card</div>
+        <div class="col-12 col-md-6 col-xl-3*">Service card</div>
     </div>    
 </section>
 
     <!--Join our Events form-->
     <!--Testimonials-->
-    <!--Contact form -->
+    
  
 </main>
-    
-    <h1>Welcome to Boardwalk Games!</h1> <i class="fa-solid fa-dice-d20"></i>
+   <!--Footer/ Contact form --> 
+   <!--mt-auto added to push footer to bottom of page-->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row" justify-content-center>
+                <div class="col-12">Contact section Heading</div>
+                <!-- contact info-->
+                <div class="col-12 col-md-6 col-xl-4">Contact info and social media links</div>
+                <!--Opening times-->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
+        </div>
 
-    <p> Some writing to show the font style.</p>
+    </footer>
 
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
