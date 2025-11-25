@@ -32,3 +32,13 @@
 The colours had been agreed with the client and decided already. Any extra pages agged will have the same colour palette to provide continuety and consistancy in the website.
 
 <img width="839" height="208" alt="image" src="https://github.com/user-attachments/assets/237c3456-e0e4-4f14-b9e1-18101acf6067" />
+
+<h2>Fonts <h2>
+<p>The chosen fonts were; </p>
+
+<P>"Macondo" for headings because it resembles that of the branding in some popular board games and gives an old- world adventure feel. It was a good fit for the brand of the shop and the business's theme. It would also appeal to the target audience as they can make the connection with the business name and their favourite board games.</p>
+<p>"Inter" for the main body of text because it is easy to read. It therefore gives a clean user experience and improved accessibility.</p>
+
+![alt text](assets\images\image.png)
+
+
