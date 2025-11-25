@@ -17,8 +17,10 @@
   <li>Casual gamers and families looking for fun ina relaxed atmosphere.</li>
   <li>Students interested in gaming for budget friendly entertainment options and discounts.</li>
 </ul>
-Pre agreed Wireframe design for Boardwalk Games- https://codeinstitute.s3.eu-west-1.amazonaws.com/Bootstrap/bootstrapM2-02.01.03-boardwalk-games-full-wireframes.pdf 
-New wire frame- <img width="664" height="773" alt="image" src="https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7" />
+
+<h2>Wireframe designs</h2>
+Wireframe design for Boardwalk Games Home page.-<img width="664" height="773" alt="image" src="[https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7](https://codeinstitute.s3.eu-west-1.amazonaws.com/Bootstrap/bootstrapM2-02.01.03-boardwalk-games-full-wireframes.pdf )"/> https://codeinstitute.s3.eu-west-1.amazonaws.com/Bootstrap/bootstrapM2-02.01.03-boardwalk-games-full-wireframes.pdf 
+Wireframe for Games Library and Booking form- <img width="664" height="773" alt="image" src="https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7" />
 <h2>Colour Palette</h2>
 The colours had been agreed with the client and decided already. Any extra pages agged will have the same colour palette to provide continuety and consistancy in the website.
 
