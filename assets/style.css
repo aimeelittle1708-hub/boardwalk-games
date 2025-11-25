@@ -26,6 +26,8 @@
   font-style: normal;
 }
 
+/* Global styles */
+
 body {
     font-family: var(--primary-font);
 }
@@ -35,11 +37,18 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight);
 }
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 /*Navbar customisation*/
 #navbar {
@@ -49,6 +58,15 @@ h3 {
 #navbar .logo {
     width: 30px;
 }
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font)
+}
+
+
+
 /*Grid visualisation for CSS testing*/
 /*.container,
 .row {
