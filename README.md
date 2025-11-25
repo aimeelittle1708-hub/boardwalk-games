@@ -19,13 +19,13 @@
 </ul>
 
 <h2>Wireframe designs</h2>
-Wireframe design for Boardwalk Games Home page.
+<p>Wireframe design for Boardwalk Games Home page.</p><br>
 -<img width="808" height="910" alt="image" src="https://github.com/user-attachments/assets/25fad28e-9362-4ad6-b1e3-743cf44bea61" /> 
-Wireframe for contact form before completed- 
+<p>Wireframe for contact form before completed</p> <br>
 <img width="1012" height="700" alt="image" src="https://github.com/user-attachments/assets/28db3d60-fa6f-4d27-9b2f-4fa92b1500a4" />
-Wireframe for after details completed -
+<p>Wireframe for after details completed -</p><br>
 <img width="1008" height="461" alt="image" src="https://github.com/user-attachments/assets/84eae46a-8f02-407a-a2a9-f358d287df6d" /> 
-Wireframe for Games Library and Booking form- 
+<p>Wireframe for Games Library and Booking form-</p> <br>
 <img width="664" height="773" alt="image" src="https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7" />
 
 <h2>Colour Palette</h2>
