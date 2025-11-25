@@ -1,3 +1,13 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+/*CSS variables*/
+:root {
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Macondo", cursive;
+  --primary-color: #3a2620; /*dark brown*/
+}
+
 /*fonts*/
 .macondo-regular {
   font-family: "Macondo", cursive;
@@ -14,12 +24,13 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    font-family: var(--primary-font);
 }
-h1 {
-    font-family: "Macondo", cursive;
-    font-weight: 400;
-    font-style: normal;
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
+
