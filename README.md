@@ -41,4 +41,43 @@ The colours had been agreed with the client and decided already. Any extra pages
 
 <img width="500" height="150" alt="image" src=inter-and-macondo-fonts.png/>
 
+<h2>User Stories</h2>
 
+<p>The completed sprint was composed of 9 separate items. Having used the MoSCoW approach to prioritisation, 5 were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were no? remaining backlog items. </p>
+
+!! insert screen shot of project board here.!!
+
+<h2>Features</h2>
+
+<h3>Home Page </h3>
+<p>stuffhere text </p>
+<br>
+<h3> Games Library </h3>
+<p> stuff and text </p>
+<br>
+<h3>Navigation Bar </h3>
+<p>Navigation is provided via a bootstrap navbar. </p>
+<br>
+<h3> Footer </h3>
+<p> stuff aboutthe footer </p>
+
+<h3>Entity Relationship Diagram </h3>
+The following data structure was created for the project.
+insert image 
+
+<h2>Testing </h2>
+<h3>Responsive Testing </h3>
+<p>Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones.</p>
+
+Validator Testing
+<p>HTML
+CSS</p>
+
+<h2>Deployment </h2>
+
+<h3>Credits </h3>
+This project ....
+<h3>Content </h3>
+all content is copyright .....
+<h3>Media</h3>
+For this project....
