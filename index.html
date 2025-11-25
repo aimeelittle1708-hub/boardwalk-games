@@ -33,15 +33,17 @@
 <!-- Classes on body set to work with mt-auto on the footer to ensure it always stays at the bottom of the page.-->
 <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-         <nav class="navbar navbar-expand-sm bg-body-tertiary">
+         <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Boardwalk Games</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo-sm-white.png" alt="Boardwalk Games Logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
