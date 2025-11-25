@@ -19,8 +19,15 @@
 </ul>
 
 <h2>Wireframe designs</h2>
-Wireframe design for Boardwalk Games Home page.-<img width="664" height="773" alt="image" src="[https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7](https://codeinstitute.s3.eu-west-1.amazonaws.com/Bootstrap/bootstrapM2-02.01.03-boardwalk-games-full-wireframes.pdf )"/> https://codeinstitute.s3.eu-west-1.amazonaws.com/Bootstrap/bootstrapM2-02.01.03-boardwalk-games-full-wireframes.pdf 
-Wireframe for Games Library and Booking form- <img width="664" height="773" alt="image" src="https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7" />
+Wireframe design for Boardwalk Games Home page.
+-<img width="808" height="910" alt="image" src="https://github.com/user-attachments/assets/25fad28e-9362-4ad6-b1e3-743cf44bea61" /> 
+Wireframe for contact form before completed- 
+<img width="1012" height="700" alt="image" src="https://github.com/user-attachments/assets/28db3d60-fa6f-4d27-9b2f-4fa92b1500a4" />
+Wireframe for after details completed -
+<img width="1008" height="461" alt="image" src="https://github.com/user-attachments/assets/84eae46a-8f02-407a-a2a9-f358d287df6d" /> 
+Wireframe for Games Library and Booking form- 
+<img width="664" height="773" alt="image" src="https://github.com/user-attachments/assets/1ddbfa8e-3150-4e40-98d6-13e54c21b3c7" />
+
 <h2>Colour Palette</h2>
 The colours had been agreed with the client and decided already. Any extra pages agged will have the same colour palette to provide continuety and consistancy in the website.
 
