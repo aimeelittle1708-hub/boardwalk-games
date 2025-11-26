@@ -43,9 +43,9 @@ The colours had been agreed with the client and decided already. Any extra pages
 
 <h2>User Stories</h2>
 
-<p>The completed sprint was composed of 9 separate items. Having used the MoSCoW approach to prioritisation, 5 were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were no? remaining backlog items. </p>
+<p>The completed sprint was composed of 9 separate items. Having used the MoSCoW approach to prioritisation, a Kanban board was created. 5 issues were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were no? remaining backlog items. </p>
 
-!! insert screen shot of project board here.!!
+<img alt text="kanban" src=assets\images\kanbanboardwalkproject.png/>
 
 <h2>Features</h2>
 
