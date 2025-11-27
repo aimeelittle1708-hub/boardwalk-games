@@ -43,10 +43,13 @@
                         <a class="nav-link" href="index.html#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="game-library.html">Games</a>
+                        <a class="nav-link" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                      <li class="nav-item">
+                        <a href="booking.html" class="nav-link active" aria-current="page"class="btn btn-primary ms-lg-3">Book Now! </a>
                     </li>
                 </ul>
             </div>
@@ -78,20 +81,20 @@
                     <div class="row">
                         <div class="col-12 col-lg-6 mb-3">
                             <label for="name" class="form-label">Name</label>
-                            <input class="form-control" id="name">
+                            <input class="form-control" id="name" name="name" type="text" required>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input class="form-control" id="email">
+                            <input class="form-control" id="email" name="email" type="email" required>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
                             <label for="phone" class="form-label">Phone number</label>
-                            <input class="form-control" id="phone">
+                            <input class="form-control" id="phone" name="phone" type="number" required>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
                             <label for="event-type" class="form-label">Event type</label>
-                            <select id="event-type" class="form-select">
-                                <option selected>Select</option>
+                            <select id="event-type" class="form-select" name="event-type" required>
+                                <option value=""selected>Select</option>
                                 <option value="regular-play">Reserve a table</option>
                                 <option value="dnd">Dungeons & Dragons</option>
                                 <option value="retro-night">Retro Game Night</option>
@@ -101,7 +104,7 @@
                         </div>
                         <div class="col-12 mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" rows="6" id="message"></textarea>
+                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                         </div>
                     </div>
 
