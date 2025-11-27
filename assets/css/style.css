@@ -1,29 +1,14 @@
-/*Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
-/*CSS variables*/
+/* CSS Variables */
 :root {
-  --primary-font: "Inter", sans-serif;
-  --secondary-font: "Macondo", cursive;
-  --primary-color: #3a2620; /*dark brown*/
-  --secondary-color: #aa9581; /*beige*/
-  --highlight: #416a8e; /*lapis blue*/
-  --light-highlight: #7a9fc2; /*kingfisher blue*/
-}
-
-/*fonts*/
-.macondo-regular {
-  font-family: "Macondo", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-.inter-light {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 /* Global styles */
@@ -36,12 +21,12 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h1,
 h2 {
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -49,7 +34,7 @@ h2 {
 }
 
 .sub-heading-color {
-    color: var(--highlight);
+    color: var(--highlight-color);
 }
 
 .section {
@@ -57,8 +42,8 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Navbar */
 
-/*Navbar customisation*/
 #navbar {
     background-color: var(--primary-color);
 }
@@ -70,19 +55,19 @@ h2 {
 /* Header */
 
 #header .lead {
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
 }
 
-/* Services section */
+/* Services */
 
 #services .card-footer {
     font-weight: bold;
-    color: var(--highlight);
+    color: var(--highlight-color);
     background-color: transparent;
 }
 
 #services .card {
-    margin-bottom: 1.5rem ;
+    margin-bottom: 1.5rem;
 }
 
 /* Game library cards */
@@ -92,20 +77,20 @@ h2 {
     border: none;
 }
 
-/* Footer /contact */
+/* Footer / contact */
 
 #contact {
     background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
 }
+
 #contact h2 {
     color: white;
-   
 }
 
 #contact .sub-heading-color {
-    color: var(--light-highlight)
+    color: var(--highlight-color-light);
 }
 
 #contact i {
@@ -113,15 +98,28 @@ h2 {
     font-size: 1.2rem;
     margin-right: 15px;
 }
-/*Grid visualisation for CSS testing*/
-/*.container,
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+
+/* grid visualisation CSS for testing */
+
+/* .container,
 .row {
     border: 2px solid black;
 }
+
 .col-12 {
     border: 2px solid white;
-    background-color: lightgrey;
-}*/
+    background-color: lightgray;
+} */
 
 /* Media queries */
 
