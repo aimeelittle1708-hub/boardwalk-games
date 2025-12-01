@@ -55,11 +55,7 @@ The colours had been agreed with the client and decided already. Any extra pages
 <li>Booking page and a success.html thank-you page</li>
 <li>Fixed-top responsive navigation and smooth in-page scrolling</li>
 <li>Accessible alt text and HTML validation improvements</li>
-
-<h3>Entity Relationship Diagram </h3>
-The following data structure was created for the project.
-insert image 
-
+</ul>
 <h2>Testing </h2>
 <h3>Responsive Testing </h3>
 <p>Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones.</p>
