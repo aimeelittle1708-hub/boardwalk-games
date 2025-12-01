@@ -60,6 +60,17 @@ The colours had been agreed with the client and decided already. Any extra pages
 <h3>Responsive Testing </h3>
 <p>Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones.</p>
 
+<h3> Lighthouse testing </h3>
+Light house performace testing showed 99% rating. 1% due to import of external libraries.
+<img alt text="performance" src=assets\images\perform-boardwalk-99.png/>
+
+Assessibility testing showed 100% rating.
+
+<img alt text="performance" src=assets\images\access-boardwalk-100.png/>
+Best practices showed 100% rating.
+
+<img alt text="performance" src=assets\images\bestprac-boardwalk-100.png/>
+
 Validator Testing
 <p>HTML
 CSS</p>
