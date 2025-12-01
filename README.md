@@ -48,18 +48,13 @@ The colours had been agreed with the client and decided already. Any extra pages
 <img alt text="kanban" src=assets\images\kanbanboardwalkproject.png/>
 
 <h2>Features</h2>
-
-<h3>Home Page </h3>
-<p>stuffhere text </p>
-<br>
-<h3> Games Library </h3>
-<p> stuff and text </p>
-<br>
-<h3>Navigation Bar </h3>
-<p>Navigation is provided via a bootstrap navbar. </p>
-<br>
-<h3> Footer </h3>
-<p> stuff aboutthe footer </p>
+<ul>
+<li>Home page with header carousel and calls-to-action (Book now) </li>
+<li>Services section highlighting cafe play, game library, events and kids parties </li>
+<li>Game library page with reservation form</li>
+<li>Booking page and a success.html thank-you page</li>
+<li>Fixed-top responsive navigation and smooth in-page scrolling</li>
+<li>Accessible alt text and HTML validation improvements</li>
 
 <h3>Entity Relationship Diagram </h3>
 The following data structure was created for the project.
@@ -73,11 +68,60 @@ Validator Testing
 <p>HTML
 CSS</p>
 
-<h2>Deployment </h2>
+<h2> Run Locally </h2>
 
-<h3>Credits </h3>
-This project ....
-<h3>Content </h3>
-all content is copyright .....
-<h3>Media</h3>
-For this project....
+This is a static site. To run locally, open index.html in your browser, or serve the folder with a simple HTTP server.
+
+Python 3 (recommended):
+
+python3 -m http.server 8000
+# then open http://localhost:8000 in your browser
+Or use Node.js http-server (if installed):
+
+npx http-server -c-1 . 8080
+# then open http://localhost:8080
+
+<h2> Deployment </h2>
+The project is structured so the site can be deployed to GitHub Pages from the /docs folder. The docs/ folder is kept in sync with the project root so the live Pages site matches the source.
+
+<h2> Notes & Demo Status </h2>
+This is a demo / portfolio project: it demonstrates layout, UX, and front-end form validation only. There is no server-side booking API — booking/reservation forms currently redirect to a static success.html page.
+For a production-ready booking system, consider wiring a simple backend (serverless function or express app) to accept and persist reservations.
+
+<h2>Credits </h2>
+Built with Bootstrap 5 and Font Awesome
+Photos and illustrations: use appropriately licensed assets or replace with your own
+<h2>License </h2>
+This repository is provided as a demo. Replace or update the license below as needed for production.
+
+MIT License — see LICENSE (not included by default)
+
+<h2>Contributing</h2>
+Contributions welcome — open an issue or PR, and follow the repository style (plain HTML + CSS + small JS). Consider adding tests or a CI pipeline for Pages deployment.
+
+Optional next steps
+
+Add a LICENSE file and a basic contributing guide
+Create or adjust a docs/ sync script to keep docs/ up-to-date
+Add or customise a GitHub Actions workflow to copy root files into docs/ on push
+Docs sync (local + automatic)
+To make GitHub Pages deployment easier this repo includes a small local helper script and a GitHub Actions workflow (created in .github/workflows/sync-docs.yml) that keep the docs/ folder in sync with the repository root.
+
+Local usage (recommended to preview before pushing):
+
+# Make script executable once
+chmod +x scripts/sync_to_docs.sh
+
+# Run the script to copy files into docs/
+./scripts/sync_to_docs.sh
+
+# If the script staged changes, commit and push them
+git commit -m "chore: sync root -> docs" docs && git push
+Behavior of the GitHub Action:
+
+The workflow sync-docs.yml runs on pushes to main.
+It copies the repository root into docs/ (excludes .git, .github, scripts, node_modules).
+If the action detects changes it will commit them back to main (using the GITHUB_TOKEN).
+Notes and safety:
+
+The action is intentionally simple: it only commits when docs/ differs from the root. If you prefer to review the changes locally first, run the local script and commit manually instead of relying on the action. The workflow can be configured to run on tagged releases or specific branches if desired.
