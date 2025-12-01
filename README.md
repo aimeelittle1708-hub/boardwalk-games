@@ -72,8 +72,12 @@ Best practices showed 100% rating.
 <img alt text="performance" src=assets\images\bestprac-boardwalk-100.png/>
 
 Validator Testing
-<p>HTML
-CSS</p>
+<h3> HTML validation </h3>
+<img alt text="htmlscreenshot" src=assets\images\html-check.png/>
+
+
+<h3>CSS</h3>
+<img alt text="cssscreenshot" src=assets\images\css-check.png/>
 
 <h2> Run Locally </h2>
 
